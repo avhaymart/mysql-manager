@@ -3,18 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.18.0",
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.14.7",
-    "react": "^16.8.4",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "react": "^16.13.1",
     "react-addons-css-transition-group": "^15.6.2",
-    "react-dom": "^16.8.4",
-    "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8",
-    "react-transition-group": "^2.7.0",
-    "startbootstrap-sb-admin-2": "^4.0.2",
-    "typescript": "^3.3.3333"
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.1",
+    "react-transition-group": "^4.4.1",
+    "startbootstrap-sb-admin-2": "^4.0.7",
+    "typescript": "^3.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,5 +31,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "yargs-parser": "^18.1.3"
+  }
 }
