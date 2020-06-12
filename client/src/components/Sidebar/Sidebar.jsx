@@ -40,8 +40,8 @@ class Sidebar extends Component {
             <p className="pt-3">Loading Sidebar...</p>
           </div>
         }
-        
-        <Link to="/" className="btn btn-outline-secondary sidebar-logout">disconnect</Link>
+
+        <Link to="/" id="sidebar-logout" className="btn btn-outline-secondary">disconnect</Link>
       </nav>
     )
   }
